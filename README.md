@@ -1,7 +1,7 @@
 # SvelteCMS
 
 Welcome to SvelteCMS, a modern content management system built with Svelte and Vite. This project provides a simple, intuitive, and highly customizable CMS for developers and content creators.
-
+The backend is available here [Svelte-CMS-Backend](https://github.com/LegendOdin/svelte-cms-backend)
 ## Features
 
 - **Dynamic Content Management**: Easily create, edit, and delete pages with a dynamic navigation bar.
