@@ -21,4 +21,4 @@ Welcome to SvelteCMS, a modern content management system built with Svelte and V
 
 - [Node.js](https://nodejs.org/)
 - [MongoDB](https://www.mongodb.com/try/download/community)
-- [Svelte] (https://svelte.dev/)
+- [Svelte](https://svelte.dev/)
