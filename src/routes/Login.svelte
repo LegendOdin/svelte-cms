@@ -4,7 +4,7 @@
 
   let username = '';
   let password = '';
-
+  export let name = "Login";
   function login() {
     if (username === 'admin' && password === 'password') {
       localStorage.setItem('auth', 'true');
@@ -16,6 +16,7 @@
 </script>
 
 <div class="flex justify-center items-center min-h-screen bg-gray-900">
+  <h1>Login</h1>
   <div class="bg-gray-800 p-8 rounded-lg shadow-lg w-full max-w-md">
     <h2 class="text-3xl mb-8 text-center text-white">Login</h2>
     <form on:submit|preventDefault={login}>

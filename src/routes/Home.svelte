@@ -1,7 +1,7 @@
 <script>
     import axios from 'axios';
     import { onMount } from 'svelte';
-  
+    export let name = "Home";
     let pages = [];
   
     onMount(async () => {
@@ -11,6 +11,7 @@
   </script>
   
   <div class="text-white">
+    <h1>Home</h1>
     <ul>
       {#each pages as page}
         <li class="p-4 bg-gray-800 rounded mb-4">
